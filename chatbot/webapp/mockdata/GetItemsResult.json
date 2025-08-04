@@ -1,0 +1,55 @@
+{"GetItemsResult":
+	{
+		"APPSRV":
+		[
+			{"SystemType":"APPSRV","ItemCode":"HPC.000196","ItemName":"Virtual 32 GB, Linux","ServerSizeGB":"32","StorageGB":"100","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"8"},
+			{"SystemType":"APPSRV","ItemCode":"HPC.000195","ItemName":"Virtual 64 GB, Linux","ServerSizeGB":"64","StorageGB":"100","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"16"},
+			{"SystemType":"APPSRV","ItemCode":"HPC.000228","ItemName":"Virtual-130GB-AWS, Windows","ServerSizeGB":"0","StorageGB":"0","StorageTotalGB":"0","OSType":"windows","MachineType":"Virtual","VCpu":"16"},
+			{"SystemType":"APPSRV","ItemCode":"HPC.000201","ItemName":"Virtual 32 GB, Windows","ServerSizeGB":"32","StorageGB":"52","StorageTotalGB":"0","OSType":"windows","MachineType":"Virtual","VCpu":"8"},
+			{"SystemType":"APPSRV","ItemCode":"HPC.000205","ItemName":"Virtual 64 GB, Windows","ServerSizeGB":"64","StorageGB":"100","StorageTotalGB":"0","OSType":"windows","MachineType":"Virtual","VCpu":"16"}
+		],
+		"HDBSRV":
+		[
+			{"SystemType":"HDBSRV","ItemCode":"HPC.000226","ItemName":"HANA-Virtual-65GB-AWS, Linux (r4.2xlarge/r3.2xlarge)","ServerSizeGB":"61","StorageGB":"61","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"8"},
+			{"SystemType":"HDBSRV","ItemCode":"HPC.000210","ItemName":"HANA-Virtual-64GB, Linux","ServerSizeGB":"64","StorageGB":"64","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"10"},
+			{"SystemType":"HDBSRV","ItemCode":"HPC.000199","ItemName":"HANA-Virtual-128GB, Linux","ServerSizeGB":"128","StorageGB":"128","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"20"},
+			{"SystemType":"HDBSRV","ItemCode":"HPC.000209","ItemName":"HANA-Virtual-256GB, Linux","ServerSizeGB":"256","StorageGB":"256","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"40"},
+			{"SystemType":"HDBSRV","ItemCode":"HPC.000227","ItemName":"HANA-Virtual-523GB-AWS, Linux (r4.16xlarge)","ServerSizeGB":"488","StorageGB":"488","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"64"},
+			{"SystemType":"HDBSRV","ItemCode":"HPC.000225","ItemName":"HANA-Virtual-2095GB-AWS, Linux (x1.32xlarge)","ServerSizeGB":"1952","StorageGB":"1952","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"128"},
+			{"SystemType":"HDBSRV","ItemCode":"HPC.000202","ItemName":"HANA-Physical-2TB-Ivy, Linux","ServerSizeGB":"2048","StorageGB":"10","StorageTotalGB":"0","OSType":"linux","MachineType":"Physical","VCpu":"120"}
+		],
+		"OTHDBSRV":
+		[
+			{"SystemType":"OTHERDB","ItemCode":"HPC.000211","ItemName":"DB Virtual 8 GB, Linux","ServerSizeGB":"8","StorageGB":"100","StorageTotalGB":"100","OSType":"linux","MachineType":"Virtual","VCpu":"2"},
+			{"SystemType":"OTHERDB","ItemCode":"HPC.000208","ItemName":"DB Virtual 32 GB, Linux","ServerSizeGB":"32","StorageGB":"100","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"8"},
+			{"SystemType":"OTHERDB","ItemCode":"HPC.000214","ItemName":"DB Virtual 64 GB, Linux","ServerSizeGB":"64","StorageGB":"100","StorageTotalGB":"0","OSType":"linux","MachineType":"Virtual","VCpu":"16"},
+			{"SystemType":"OTHERDB","ItemCode":"HPC.000216","ItemName":"DB Virtual 16 GB, Windows","ServerSizeGB":"16","StorageGB":"100","StorageTotalGB":"100","OSType":"windows","MachineType":"Virtual","VCpu":"4"},
+			{"SystemType":"OTHERDB","ItemCode":"HPC.000217","ItemName":"DB Virtual 32 GB, Windows","ServerSizeGB":"32","StorageGB":"100","StorageTotalGB":"0","OSType":"windows","MachineType":"Virtual","VCpu":"8"},
+			{"SystemType":"OTHERDB","ItemCode":"HPC.000218","ItemName":"DB Virtual 64 GB, Windows","ServerSizeGB":"64","StorageGB":"100","StorageTotalGB":"0","OSType":"windows","MachineType":"Virtual","VCpu":"16"}
+		],
+		"BACKUP":
+		[
+			{"SystemType":"BACKUP","ItemCode":"HPI.000145","ItemName":"GB Backup - weekly full backup 2 weeks retention period"},
+			{"SystemType":"BACKUP","ItemCode":"HPI.000146","ItemName":"GB Backup - daily full, 4 weeks retention"},
+			{"SystemType":"BACKUP","ItemCode":"HPI.000227","ItemName":"GB Backup - daily full, 3 months retention"}
+		],
+		"STORAGE":
+		[
+			{"SystemType":"STORAGE","ItemCode":"HPI.000147","ItemName":"GB Storage, NAS HPC"}
+		],
+		"ADDSERVICE":
+		[
+			{"SystemType":"ADDSERVICE","ItemCode":"HPI.000153","ItemName":"Additional Service, Load Balancer, shared"},
+			{"SystemType":"ADDSERVICE","ItemCode":"HPI.000475","ItemName":"Unmanaged IaaS WTS service for customer (10 concurrent user licenses)"}
+		],
+		"ADDON":
+		[
+			{"SystemType":"ADDON","ItemCode":"HPC.000223","ItemName":"sFin - Addon Class 3"}
+		],
+		"LTB":
+		[
+			{"SystemType":"LTB","ItemCode":"HPI.000226","ItemName":"GB Backup - daily full, 2 months retention"},
+			{"SystemType":"LTB","ItemCode":"HPI.000476","ItemName":"GB Backup - Monthly, 6 months retention (max. to contract end date)"}
+		]
+	}
+}

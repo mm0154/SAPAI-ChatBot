@@ -1,0 +1,11 @@
+{"GetSolutionTiersResult":
+	[
+		{"Code":"DEV","Name":"DEV","Prod":"NONPROD","MarkByDefault":"false"},
+		{"Code":"PREPROD","Name":"PREPROD","Prod":"NONPROD","MarkByDefault":"false"},
+		{"Code":"PROD","Name":"PROD","Prod":"PROD","MarkByDefault":"false"},
+		{"Code":"QAS","Name":"QAS","Prod":"NONPROD","MarkByDefault":"false"},
+		{"Code":"SBX","Name":"SANDBOX","Prod":"NONPROD","MarkByDefault":"false"},
+		{"Code":"TEST","Name":"TEST","Prod":"NONPROD","MarkByDefault":"false"},
+		{"Code":"TRAIN","Name":"TRAIN","Prod":"NONPROD","MarkByDefault":"false"}
+	]
+}

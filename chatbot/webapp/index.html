@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>Hospital Management</title>
+
+		<script id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m,sap.tnt,sap.ui.table"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"ui.ui": "./","sap.ui.demo.mock": "mockdata"}'>
+		</script>
+		<script id="idebootstrap" type="text/javascript" src="resources/sap/watt/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					appWidthLimited:false,
+					app: new sap.ui.core.ComponentContainer({
+						height : "93%",
+						name : "ui.ui",
+						displayBlock: true
+					})
+				}).placeAt("content");
+			});
+			sap.ui.getCore().getModel("device").setProperty("/appWidthLimited", true);
+			
+		</script>
+	</head>
+
+	<body id="content" class="sapUiBody">
+
+		</body>
+
+</html>

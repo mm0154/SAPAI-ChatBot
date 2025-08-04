@@ -1,0 +1,16 @@
+{"GetSolutionsResult":
+    [
+	{"ItemCode":"HSO.000020","ItemName":"SAP ERP","LineId":0,"TimesUsed":"676","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000012","ItemName":"SAP BW","LineId":1,"TimesUsed":"304","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000003","ItemName":"HANA datamart","LineId":2,"TimesUsed":"165","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000120","ItemName":"SAP Fiori","LineId":3,"TimesUsed":"128","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"N","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000037","ItemName":"SAP Webdispatcher","LineId":4,"TimesUsed":"78","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"N","AppReleaseP":"","CheckUniqueSID":true},
+	{"ItemCode":"HSO.000009","ItemName":"SAP BusinessObjects Business Intelligence platform 4.1 (Bobj)","LineId":5,"TimesUsed":"55","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000010","ItemName":"SAP BusinessObjects Business Planning and Consolidation (BPC)","LineId":6,"TimesUsed":"30","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000042","ItemName":"IaaS Basic","LineId":7,"TimesUsed":"27","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"N/A","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000119","ItemName":"SBOP FINANCIAL Consolidation","LineId":8,"TimesUsed":"25","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000035","ItemName":"SAP BusinessObjects Data Services","LineId":9,"TimesUsed":"10","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000121","ItemName":"SAP Information Steward","LineId":10,"TimesUsed":"7","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false},
+	{"ItemCode":"HSO.000141","ItemName":"SAP S/4HANA On Premise","LineId":11,"TimesUsed":"1","GuideLineHint":"","TargetCloud":"HECPRD17","LBSolution":"Y","AppReleaseP":"","CheckUniqueSID":false}
+     ]
+}

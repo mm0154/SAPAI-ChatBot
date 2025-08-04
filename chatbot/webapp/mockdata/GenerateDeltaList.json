@@ -1,0 +1,24 @@
+{
+	"GenerateDeltaList": [{
+		"Sno": "1",
+		"Category": "SAP ERP",
+		"Change": "Tier added",
+		"OldValue": "",
+		"NewValue": "QAS",
+		"Address": ""
+	}, {
+		"Sno": "2",
+		"Category": "SAP ERP",
+		"Change": "Tier removed",
+		"OldValue": "PREPROD",
+		"NewValue": "",
+		"Address": ""
+	}, {
+		"Sno": "3",
+		"Category": "Error",
+		"Change": "Could not fecth the basis landscape details!",
+		"OldValue": "",
+		"NewValue": "",
+		"Address": ""
+	}]
+}
